@@ -68,7 +68,7 @@ async def guide(ctx):
                                name='!get "`<search (type: str (search phrase))>`"',
                                value="*!get ipsum*\nReturns all instances of quotes mentioning the specified phrase 'ipsum'",
                                inline=False).add_field(
-                               name='!get "`<special: all or random)>`"',
+                               name='!get `<special: all or random)>`',
                                value="*!get all*\nReturns all instances of quotes.\n*!get random*\nReturns a random quote.",
                                inline=False),
 

@@ -1,6 +1,7 @@
 # quotebot
-Discord bot designed to save and recall memorable quotes, with the help of Discord.py and SQLite. Inspired by [Twitch's Streamer.bot](https://wiki.streamer.bot/en/Settings/Quotes).
-Designed to be selfhosted, or with the aid of websites such as codesandbox + uptimerobot to keep it online all of the time. Quotes and settings are stored in an SQL database that is created upon first running the bot.
+Discord bot designed to save and recall memorable quotes, with the help of [Discord.py](https://github.com/Rapptz/discord.py) and SQLite. Inspired by [Twitch's Streamer.bot](https://wiki.streamer.bot/en/Settings/Quotes).
+
+Designed to be selfhosted, or with the aid of websites such as CodeSandbox + UptimeRobot to keep it online all of the time. Quotes and settings are stored in an SQL database that is created upon first running the bot.
 
 ## Dependencies
 - [Python3](https://www.python.org/downloads/)
@@ -23,10 +24,10 @@ Designed to be selfhosted, or with the aid of websites such as codesandbox + upt
 
 | Command | Explanation | Example |
 | ------- | --------- | ------- | 
-| `!guide` | Brings up a help menu containing all commands | - |
-| `!add "<quote>" <author>` | `<quote>` is the quote to be added <br>`<author>` is who the quote should be attributed to. | `!add "Lorem ipsum dolor" Me` |
-| `!get <search (type: int (quote ID))>` | `<search>` is the integer ID of the quote to be retrieved. | `!get 7`` |
-| `!get "<search (type: str (search phrase))>"`| `<search>` is the phrase or word to search existing quotes for. | `!get "ipsum` |
-| `!get all` | Returns all existing quotes in an reaction-navigable menu | - |
-| `!get random` | Returns a random quote | - | 
-| `!settings <setting> <value>` | Changes the setting to the specified value. <br>The only available option is `embedcolour`, which accepts a hex code | `!settings embedcolour #316b82`|
+| `!guide` | Brings up a help menu containing all commands. | - |
+| `!add "<quote>" <author>` | `<quote>` is the quote to be added. <br>`<author>` is who the quote should be attributed to. | `!add "Lorem ipsum dolor" Me` |
+| `!get <search (type: int (quote ID))>` | `<search>` is the integer ID of the quote to be retrieved. | `!get 7` |
+| `!get "<search (type: str (search phrase))>"`| `<search>` is the phrase or word to search existing quotes for. | `!get "ipsum"` |
+| `!get all` | Returns all existing quotes in an reaction-navigable menu. | - |
+| `!get random` | Returns a random quote. | - | 
+| `!settings <setting> <value>` | Changes the setting to the specified value. <br>The only available option is `embedcolour`, which accepts a hex code. | `!settings embedcolour #316b82`|
