@@ -14,7 +14,7 @@ Designed to be selfhosted, or with the aid of websites such as codesandbox + upt
 4. Go to OAuth2 -> URL Generator and generate a URL, selecting the following: Bot (under scopes), and Send Messages, Add Reactions (under bot permissions). Use this URL to add the bot to your server.
 
 ### Hosting an Instance of the Bot (Locally)
-1. Run `git clone https://github.com/phthallo/quotebotpy`to clone the contents of the repository to your computer. 
+1. Run `git clone https://github.com/phthallo/quotebot`to clone the contents of the repository to your computer. 
 2. Edit `example.env` and add your bot token after the `=`.
 3. Run main.py! 
 
