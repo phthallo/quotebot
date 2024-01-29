@@ -8,7 +8,7 @@ import random
 from discord.ext import commands
 from reactionmenu import ReactionMenu, ReactionButton
 from dotenv import load_dotenv
-load_dotenv("variables.env")
+load_dotenv("example.env")
 intents = discord.Intents.default()
 intents.messages=True 
 intents.guilds=True 
